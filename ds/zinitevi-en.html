@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>ZiniTevi - Watch Movies, Series for iOS and Android</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="ZiniTevi">
+        <meta name="thumbnail" content="https://zinitevi.github.io/movieapps/fav/og-image.png" />
+        <meta property="og:site_name" content="ZiniTevi" />
+        <meta http-equiv="refresh" content="0; url=https://zinitevi.github.io/movieapps/" />
+        <!-- <meta http-equiv="REFRESH" content="300" /> -->
+
+        <meta property="og:title" content="ZiniTevi - Watch Movies, Series for iOS and Android">
+        <meta property="og:description" content="FREE Stream videos online and offline for iOS, Apple TV, Android, FireStick, Smart TV, PC, Laptop, Macbook.">
+        <meta property="og:url" content="https://zinitevi.github.io/movieapps/">
+
+        <meta name="referrer" content="never" />
+        <meta name="referrer" content="no-referrer" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image:width" content="620">
+        <meta property="og:image:height" content="620">
+        
+        <meta property="og:image" content="https://zinitevi.github.io/movieapps/fav/og-image.png">
+
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://zinitevi.github.io/movieapps/fav/apple-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://zinitevi.github.io/movieapps/fav/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://zinitevi.github.io/movieapps/fav/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://zinitevi.github.io/movieapps/fav/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://zinitevi.github.io/movieapps/fav/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://zinitevi.github.io/movieapps/fav/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://zinitevi.github.io/movieapps/fav/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://zinitevi.github.io/movieapps/fav/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://zinitevi.github.io/movieapps/fav/apple-icon-152x152.png">
+        
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://zinitevi.github.io/movieapps/fav/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://zinitevi.github.io/movieapps/fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://zinitevi.github.io/movieapps/fav/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://zinitevi.github.io/movieapps/fav/favicon-16x16.png">
+        <link rel="manifest" href="https://zinitevi.github.io/movieapps/fav/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://zinitevi.github.io/movieapps/fav/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Font -->
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://zinitevi.github.io/movieapps/css/brands.css">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet">
+        <link href="https://zinitevi.github.io/movieapps/css/style.css?r=153445634563" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+        <script>
+            var _0x77af=["\x41\x49\x7A\x61\x53\x79\x42\x77\x48\x48\x47\x49\x5A\x68\x38\x4B\x5A\x34\x43\x42\x4A\x65\x30\x79\x5A\x7A\x64\x43\x73\x76\x52\x2D\x58\x6A\x56\x79\x6E\x45\x30","\x7A\x69\x6E\x69\x74\x65\x76\x69\x2D\x77\x65\x62\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x61\x70\x70\x2E\x63\x6F\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x7A\x69\x6E\x69\x74\x65\x76\x69\x2D\x77\x65\x62\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D","\x7A\x69\x6E\x69\x74\x65\x76\x69\x2D\x77\x65\x62","\x7A\x69\x6E\x69\x74\x65\x76\x69\x2D\x77\x65\x62\x2E\x61\x70\x70\x73\x70\x6F\x74\x2E\x63\x6F\x6D","\x38\x38\x30\x31\x32\x36\x30\x39\x31\x33\x32\x33","\x31\x3A\x38\x38\x30\x31\x32\x36\x30\x39\x31\x33\x32\x33\x3A\x77\x65\x62\x3A\x38\x36\x37\x66\x34\x35\x30\x62\x63\x39\x31\x63\x66\x30\x62\x65\x36\x35\x66\x63\x31\x65","\x47\x2D\x4A\x46\x4D\x32\x31\x4A\x51\x36\x46\x4B","\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x41\x70\x70","\x61\x6E\x61\x6C\x79\x74\x69\x63\x73"];var firebaseConfig={apiKey:_0x77af[0],authDomain:_0x77af[1],databaseURL:_0x77af[2],projectId:_0x77af[3],storageBucket:_0x77af[4],messagingSenderId:_0x77af[5],appId:_0x77af[6],measurementId:_0x77af[7]};firebase[_0x77af[8]](firebaseConfig);firebase[_0x77af[9]]()
+        </script>
+    </head>
+    <body>
+        <section id="how-to-download">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2>How to install app?</h2>
+                    <div class="col-12 col-lg-12" id="step1">
+                        <p>1. Remove an old app, installing an existing app will prevent you from opening the app on <span class="font-weight-bold">the same certificate</span>. You can only reset factory device to fix this problem.</p>
+                        <p class="font-weight-bold">* Don't remove apps installed from Testflight </p>
+                        <image src="https://zinitevi.github.io/movieapps/images/step0.png" class="img-thumbnail" style="width:300px;" />
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-12">
+                        <p>2. Open <a href="https://zinitevi.github.io/movieapps/ds/zinitevi-en.html">this link</a> in Safari on iOS device and press <b>DOWNLOAD button</b> below</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <p>3. You should have seen a popup proposing to install app.</p>
+                        <image src="https://zinitevi.github.io/movieapps/images/step1.png" class="img-thumbnail" style="width:300px;" />
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-12">
+                        <p>4. Go back to Home Screen. In a few seconds, you should see the icon of the app somewhere and a progress indicator.</p>
+                        <image src="https://zinitevi.github.io/movieapps/images/step2.png" class="img-thumbnail" style="width:150px;" />
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-12">
+                        <p>5. Go to <span class="font-weight-bold">Settings > General > Profiles & Device Management > [Profile Name] > Trust > Trust</span>.</p>
+                        <ul>
+                            <li><image src="https://zinitevi.github.io/movieapps/images/step3.png" class="img-thumbnail" style="width:300px;"/></li>
+                            <li><image src="https://zinitevi.github.io/movieapps/images/step4.png" class="img-thumbnail" style="width:300px;"/></li>
+                            <li><image src="https://zinitevi.github.io/movieapps/images/step5.png" class="img-thumbnail" style="width:300px;"/></li>
+                            <li><image src="https://zinitevi.github.io/movieapps/images/step6.png" class="img-thumbnail" style="width:300px;"/></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12 col-lg-12">
+                        <p>6. Open app and enjoy. <b>If you can't open it or display an alert "Unable to Verify App", you can just reset factory your device or wait for app with a new certificate. In order not to have this problem for the next time, please do the following the steps <a href="#apple-revoking">How to avoid Apple revoking?</a></b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="apple-revoking" class="mt-4">
+            <div class="container mb-4">
+                <h2>How to avoid Apple revoking?</h2>
+                <p class="font-weight-bold app"id="dnscloak">* This guide is only for devices that have been certified for trusted app in Settings and can still open app. 
+                    You need to install zinitevi app and trust certificate from Settings of your device before enabling dnscloak, that mean when you are using app normally and not protected by dnscloak, 
+                    one day app gives a "Unable to Verify App" message then Apple revoked this certificate, what you need to do:<br/>
+                    <ul>
+                        <li>
+                            Delete app and wait for it to be signed by new certificate and now install dnscloak and enable it.
+                        </li>
+                        <li>
+                            Reset to factory device and reinstall app with dnscloak is enabled.
+                        </li>
+                    </ul>
+                </p>
+                <!-- Collapsed content -->
+                <div class="mt-3 mb-4">
+                    <div class="row" id="apple-revoking-step-1">
+                        <div class="col-12 col-lg-12">
+                            <p>1. Disable proxy on your iOS device, go to <b>Settings / touch on WiFi / touch "i" next to the WiFi connection / scroll down to HTTP PROXY / set Configure Proxy to Off</b>.</p>
+                            <image src="../images/dns_0.png" class="img-thumbnail" style="width:300px;" />
+                        </div>
+                    </div>
+                    <div class="row mt-4" id="apple-revoking-step-2">
+                        <div class="col-12 col-lg-12">
+                            <p>2. Download <a class="font-weight-bold" href="https://apps.apple.com/app/id1452162351" target="_blank">DNSCloak</a> from AppStore</p>
+                        </div>
+                    </div>
+                    <div class="row" id="apple-revoking-step-3">
+                        <div class="col-12 col-lg-12">
+                            <p>3. Download <a href="#" class="apple-revoking font-weight-bold">AppleRevoking.txt</a> to your iOS device.</p>
+                        </div>
+                    </div>
+                    <div class="row" id="apple-revoking-step-4">
+                        <div class="col-12 col-lg-12">
+                            <p>4. Open <b>DNSCloak app</b></p>
+                        </div>
+                    </div>
+                    <div class="row" id="apple-revoking-step-5">
+                        <div class="col-12 col-lg-12">
+                            <p>5. Tap on menu in the left corner. In DNSCloak Settings turns on <b>"Connect on Demand"</b>.</p>
+                            <image src="../images/dns_1.png" class="img-thumbnail" style="width:300px;" />
+                            <image src="../images/dns_2.png" class="img-thumbnail" style="width:300px;" />
+                        </div>
+                    </div>
+                    <div class="row mt-4" id="apple-revoking-step-6">
+                        <div class="col-12 col-lg-12">
+                            <p>6. Turn on <b>"Enable Blacklist"</b>, a file menu will open and select the earlier downloaded file <b>"AppleRevoking.txt"</b></p>
+                            <image src="../images/dns_3.png" class="img-thumbnail" style="width:300px;" />
+                            <image src="../images/dns_3.1.png" class="img-thumbnail" style="width:300px;" />
+                        </div>
+                    </div>
+                    <div class="row mt-4" id="apple-revoking-step-7">
+                        <div class="col-12 col-lg-12">
+                            <p>7. Go back to main app and select <b>"a-and-a" / "Use this server"</b></p>
+                            <p class="font-weight-bold">* You need to trust the app before doing this or tap "Stop using this server" / trust app from Settings / "Use this server"</p>
+                            <image src="../images/dns_4.png" class="img-thumbnail" style="width:300px;" />
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12 col-lg-12">
+                            <p class="font-weight-bold" style="color: red;">Please check the following steps to know it's working perfectly</p>
+                            <ul>
+                                <li>
+                                    <p>Your iOS device Open <b>Settings / General / VPN & Device Management / VPN / make sure VPN is Enable from DNSCloak app, touch "i" on DNSCloak row / enable "Connect On Demand"</b></p>
+                                    <image src="../images/dns_6.png" class="img-thumbnail" style="width:300px;" />
+                                    <image src="../images/dns_6.1.png" class="img-thumbnail" style="width:300px;" />
+                                </li>
+                                <li>
+                                    <p>Open safari / enter <b>ppq.apple.com</b>, make sure black page with text: <b>Safari cannot open the page because the server cannot be found</b>.</p>
+                                    <image src="../images/dns_7.png" class="img-thumbnail" style="width:300px;" />
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="row mt-4" id="apple-revoking-step-8">
+                        <div class="col-12 col-lg-12">
+                            <p>8. Now swipe up to close DNSCloak app to <b>keep it running on background</b></p>
+                            <p class="font-weight-bold" style="color: red;">* You can close DNSCloak but must keep VPN connection.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / Collapsible element -->
+            </div>
+        </section>
+        <section id="download">
+            <div class="container mb-4">
+                <h2>Download</h2>
+                <p class="p-4" style="background-color: #aaaaaa;color: #fff;">
+                    Apple can revoke app at any time and you won't be able to open it or display an alert "Unable to Verify App".<br/>We recommend you to follow these steps to avoid revoking within 3 weeks.
+                    <br/><a href="#apple-revoking">🔥 How to avoid Apple revoking?🔥</a>
+                </p>
+                <p class="font-weight-bold" >Video: How to install and avoid revoking app?</p>
+                <p>
+                    <video width="640" height="320" controls >
+                        <source src="https://raw.githubusercontent.com/ZiniTevi/movieapps/main/video/dnscloak.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </p>
+                <p class="font-weight-bold app" style="display:none;">Make sure you removed old app and just try one. See <a href="#step1">Step 1</a></p>
+                <div class="col-12 list app" style="display:none;">
+                    <div class="row pt-2 pb-2 border-bottom">
+                        <div class="col-8 date"></div>
+                        <div class="col-4 text-end"><a href="" class="btn btn-dark"> <i class="fas fa-cloud-download-alt"></i> Download</a></div>
+                    </div>
+                </div>
+                <div class="col-12 text" style="display:none;">
+                    <p>Sorry. You can't download app now. We will update soon.</p>
+                    <p>Go to <a href="https://zinitevi.github.io/movieapps/">Homepage</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="communications" style="background-color: #6c757d;padding: 30px 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <p class="mb-0" style="color: #fff;">For you have a bug or an idea</p>
+                        <p><a href="https://t.me/joinchat/O-3uKhRt22WV8OYOBkq20w" target="_blank" class="btn btn-info"> <i class="fab fa-telegram"></i>Join Group</a></p>
+                        <p></p>
+                        <p class="mb-0" style="color: #fff;">We will post updates or new features</p>
+                        <p><a href="https://t.me/joinchat/AAAAAE7ElKdKTI_uRMHIIw" target="_blank" class="btn btn-info"><i class="fab fa-telegram"></i>Join Channel</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="https://zinitevi.github.io/movieapps/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                function download(filename, type, text) {
+                    var element = document.createElement('a');
+                    element.setAttribute('href', type + encodeURIComponent(text));
+                    element.setAttribute('download', filename);
+
+                    element.style.display = 'none';
+                    document.body.appendChild(element);
+
+                    element.click();
+
+                    document.body.removeChild(element);
+                };
+
+                $('.apple-revoking').click(function(){
+                    download("AppleRevoking.txt", "data:text/plain;charset=utf-8,", "ocsp.apple.com\nocsp2.apple.com\nppq.apple.com");
+                    return false;
+                });
+
+                var starTime = new Date().getTime();
+                $('.list').on('click', '.btn', function() {
+                    if(new Date().getTime() - starTime >= 1000*60*5) {
+                        alert('This page needs to be reloaded before you can download app. Reload the page and try again.');
+                        window.location = window.location.href;
+                        return false;
+                    }
+                });
+
+                var row = $('#download .list > .row');
+                $('#download .list > .row').remove();
+                function prependItem(item) {
+                    $('#download .list > .ss').remove();
+                    var tag = row.clone();
+                    tag.addClass('ss');
+                    $(tag).find('.date').text(getLocalDateTime(item.date));
+                    $(tag).find('a.btn').attr('href',item.link);
+                    $('#download .list').prepend($(tag));
+                }
+
+                function appendItem(item) {
+                    $('#download .list > .en').remove();
+                    var tag = row.clone();
+                    tag.addClass('en');
+                    $(tag).find('.date').text(getLocalDateTime(item.date));
+                    $(tag).find('a.btn').attr('href',item.link);
+                    $('#download .list').append($(tag));
+                }
+                function getLocalDateTime(s) {
+                    var d = new Date(Date.parse(s));
+                    var options = { year: 'numeric', month: 'long', day: 'numeric' };
+                    return d.toLocaleString("en-US", options) + ' ' + d.toLocaleTimeString();
+                };
+
+                var rotate = function(l, handleOnTime, handleOutOfList) {
+                    var list = l;
+                    var cursor = 0;
+                    var timer = setInterval(function() {
+                        var currentTime = new Date().getTime();
+                        for(var i=cursor;i<list.length;i++){
+                            var previousTime = new Date(Date.parse(list[i].date)).getTime();
+                            var nextTime;
+                            if(i+1==list.length) {
+                                nextTime = previousTime + (1000*60*60);
+                            } else {
+                                nextTime = new Date(Date.parse(list[i+1].date)).getTime();
+                            }
+                            if(previousTime < currentTime && currentTime < nextTime) {
+                                handleOnTime(list[i]);
+                                cursor=i;
+                                break;
+                            } else {
+                                handleOutOfList();
+                            }
+                        };
+                        if($('#download .row').length > 0) {
+                            $('#download .app').show();
+                            $('#download .text').hide();
+                        } else {
+                            $('#download .app').hide();
+                            $('#download .text').show();
+                        }
+                    },1000);
+                };
+                $.getJSON("https://zinitevi.github.io/movieapps/ds/link2.html?r=" + new Date().getTime(), function(data, status){
+                    if(status == 'success') {
+                        $('#download .app').hide();
+                        $('#download .text').show();
+
+                        var ssList = [];
+                        if(data.ss.status == true){
+                            for(var i=0;i<data.ss.links.length;i++){
+                                ssList.push(data.ss.links[i]);
+                            };
+                        };
+                        rotate(ssList, prependItem, function(){$('#download .list > .ss').remove();});
+
+                        var enList = [];
+                        if(data.en.status == true){
+                            for(var i=0;i<data.en.links.length;i++){
+                                enList.push(data.en.links[i]);
+                            }
+                        };
+                        rotate(enList, appendItem, function(){$('#download .list > .en').remove();});
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
